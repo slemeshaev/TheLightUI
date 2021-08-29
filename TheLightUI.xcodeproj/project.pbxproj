@@ -11,6 +11,8 @@
 		66D34CA426DBAA44006DE573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D34CA326DBAA44006DE573 /* ContentView.swift */; };
 		66D34CA626DBAA45006DE573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D34CA526DBAA45006DE573 /* Assets.xcassets */; };
 		66D34CA926DBAA45006DE573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D34CA826DBAA45006DE573 /* Preview Assets.xcassets */; };
+		66D34CB326DBB2B8006DE573 /* 2.BlackScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D34CB126DBB2B8006DE573 /* 2.BlackScreen.png */; };
+		66D34CB426DBB2B8006DE573 /* 1.WhiteScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D34CB226DBB2B8006DE573 /* 1.WhiteScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		66D34CA526DBAA45006DE573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66D34CA826DBAA45006DE573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66D34CAA26DBAA45006DE573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D34CB126DBB2B8006DE573 /* 2.BlackScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.BlackScreen.png; sourceTree = "<group>"; };
+		66D34CB226DBB2B8006DE573 /* 1.WhiteScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.WhiteScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 				66D34CA526DBAA45006DE573 /* Assets.xcassets */,
 				66D34CAA26DBAA45006DE573 /* Info.plist */,
 				66D34CA726DBAA45006DE573 /* Preview Content */,
+				66D34CB026DBB0EA006DE573 /* Screenshots */,
 			);
 			path = TheLightUI;
 			sourceTree = "<group>";
@@ -67,6 +72,15 @@
 				66D34CA826DBAA45006DE573 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66D34CB026DBB0EA006DE573 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				66D34CB226DBB2B8006DE573 /* 1.WhiteScreen.png */,
+				66D34CB126DBB2B8006DE573 /* 2.BlackScreen.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D34CB426DBB2B8006DE573 /* 1.WhiteScreen.png in Resources */,
 				66D34CA926DBAA45006DE573 /* Preview Assets.xcassets in Resources */,
 				66D34CA626DBAA45006DE573 /* Assets.xcassets in Resources */,
+				66D34CB326DBB2B8006DE573 /* 2.BlackScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +288,7 @@
 				DEVELOPMENT_TEAM = 5GWB2H668N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TheLightUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +310,7 @@
 				DEVELOPMENT_TEAM = 5GWB2H668N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TheLightUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
